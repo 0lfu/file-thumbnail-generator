@@ -3,4 +3,4 @@
 
 Try it: https://olfu79.github.io/thumbnail-generator/
 
-![Screenshot](https://i.postimg.cc/2SMtpJbs/obraz-2023-03-30-220827067.png)
+![Screenshot](https://i.postimg.cc/SRH9QW6x/image.png)
