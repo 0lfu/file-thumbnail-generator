@@ -3,10 +3,11 @@ html, *{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
-    background-color: #FCDAB7;
+    background-color: #0d0d0d;
 }
 .title{
     margin: 0 0 0 auto;
+    background-color: #0d0d0d!important;
     width: 55%!important;
 }
 #thumbnails{
@@ -36,12 +37,12 @@ body{
     align-items: center;
     width: auto;
     height: 20vh;
+    background-color: #272727;
     padding: 0.5vw;
-    background-color: #133B5C;
     border-radius: 0.5vw;
 }
 form{
-    background-color: #1D2D50;
+    background-color: #272727;
     padding: 1%;
     border-radius: 0.5vw;
     display: flex;
@@ -53,17 +54,12 @@ form{
     white-space:nowrap;
     width: 15%;
     font-size: 1.2vw;
+    background-color: #A61C1C;
     border: none;
     border-radius: 0.5vw;
     padding: 0.75vw 1.5vw;
     text-align: center;
     text-decoration: none;
-}
-#inputlab{
-    background-color: #1E5F74;
-}
-#generateThumbnailsButton, #clear{
-    background-color: #1E5F74;
 }
 #movies{
     display: none;
