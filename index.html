@@ -45,9 +45,17 @@
 						document.body.appendChild(link);
 						link.click();
 						document.body.removeChild(link);
+						var currentIndex = parseInt(thumbnail.attr('data-index'));
 						$(this).parent().remove();
 						URL.revokeObjectURL(movie);
-						movies.splice(index, 1);
+						movies.splice(currentIndex, 1);
+						// Update the index value for the remaining thumbnails
+						$('.thumbnail').each(function() {
+							var currentIndex = parseInt($(this).attr('data-index'));
+							if (currentIndex > index) {
+								$(this).attr('data-index', currentIndex - 1);
+							}
+						});
 					});
 
 					$('#thumbnails').append(container);
